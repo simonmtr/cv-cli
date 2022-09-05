@@ -1,0 +1,132 @@
+{
+"name": "Simon Treutlein",
+"contact": "linkedin.com/in/simon-treutlein",
+"info": "I am a driven Devops software engineering graduate with a full stack background. I have first-hand experience on web development, microservices, API-management and Mobile App Development. I am used to working in multicultural teams in a world wide setting.",
+"urls": [
+    "github.com/simonmtr",
+    "linkedin.com/in/simon-treutlein",
+    "leetcode.com/simonmtr"
+],
+"projects":[
+    {
+        "name": "Virtual Reality Driving Simulation",
+        "company": "NTT Data",
+        "information": [
+            "Developing a virtual reality driving simulation for the HTC Vive"
+         ],
+        "technologies": "Unity, C#",
+        "startdate": "09/2018",
+        "enddate": "03/2019",
+        "link":"https://innovationlab.fh-rosenheim.de/projekte/2018_DAS_ntt.pdf"
+    },
+    {
+        "name": "Trivia Application",
+        "company": "x-root",
+        "information": [
+            "Development of a cross-platform trivia application"
+        ],
+        "technologies":"Flutter, Dart, Google Firebase",
+        "startdate": "09/2017",
+        "enddate": "03/2018",
+        "link":"https://innovationlab.fh-rosenheim.de/projekte/2018_SE2_x_root.pdf"
+    }
+],
+"experience": [
+    {
+        "company": "Amadeus Data Processing GmbH",
+        "location": "Erding",
+        "title": "Graduate Cloud Software Engineer",
+        "information": [
+            "Deployment of noSQL technologies to Azure using Jenkins and OpenShift",
+            "Development of a Go web application for patching and editing data on datastores",
+            "Development of a Python web application used for configuring connectivity between various components in the Cloud Infrastructure"
+        ],
+        "technologies": "OpenShift, Jenkins, Docker, Go, Python, Flask",
+        "startdate": "10/2021",
+        "enddate": "ongoing"
+    },
+    {
+        "company": "Ausy Technologies Germany GmbH",
+        "location": "Munich",
+        "title": "Master Thesis",
+        "information": [
+            "Development of two GraphQL servers, one REST server and one cross-platform application",
+            "Comparison of performance, testability, error handling and architecture"
+        ],
+        "technologies": "Node.js, Express.js, Flutter, PostgreSQL, GraphQL, REST",
+        "startdate": "11/2020",
+        "enddate": "04/2021"
+    },
+    {
+        "company": "Wohnungshelden GmbH",
+        "location": "Munich",
+        "title": "Working Student",
+        "information": [
+            "Full Stack developer of a cloud-based SaaS Solution with Java Spring Boot and Angular",
+            "Migration of Google Juice legacy Monolith to multiple microservices",
+            "Development of microservices and creation and extension of automated tests"
+        ],
+        "technologies": "TypeScript, Angular, Java, SpringBoot, Jenkins, Docker, Google Cloud",
+        "startdate": "09/2019",
+        "enddate": "03/2020"
+    },
+    {
+        "company": "Wohnungshelden GmbH",
+        "location": "Munich",
+        "title": "Bachelor Thesis",
+        "information": [
+            "Design and Development of a continuously integrated test process for contract testing for three microservices",
+            "Used productively, enhanced and further developed after finishing of bachelor thesis"
+        ],
+        "technologies": "Pact, Jenkins, Docker, Java, TypeScript, Angular, Spring Boot",
+        "startdate": "03/2019",
+        "enddate": "08/2019"
+    },
+    {
+        "company": "Daimler AG",
+        "location": "Sindelfingen",
+        "title": "Intern",
+        "information": [
+            "Development of Software in C# / Visual Basic for Applications and IT-Support to enable managers to see the training days of employees",
+            "Used productively in various Daimler plants"
+        ],
+        "technologies": "C#, .Net, Visual Basic for Applications, MS Office",
+        "startdate": "09/2016",
+        "enddate": "02/2017"
+    }
+],
+"education":[
+    {
+        "institute": "Rosenheim Technical University of Applied Science",
+        "name": "Computer Science",
+        "degree": "Master of Science",
+        "information": "Thesis: “Dynamic and flexible API-design with GraphQL“ (written in german)",
+        "focus": "Software Engineering",
+        "startdate": "10/2019",
+        "enddate": "04/2021"
+    },
+    {
+        "institute": "Rosenheim Technical University of Applied Science",
+        "name": "Computer Science",
+        "degree": "Bachelor of Science",
+        "information": "Thesis: “Contract Testing for Microservices“ (written in german)",
+        "focus": "Software Engineering",
+        "startdate": "03/2017",
+        "enddate": "08/2019"
+    },
+    {
+        "institute": "Rosenheim Technical University of Applied Science",
+        "name": "Business Computer Science",
+        "degree": "Bachelor of Science (not completed)",
+        "information": "Change of studies to Computer Science in March 2017",
+        "focus": "Software Engineering",
+        "startdate": "10/2014",
+        "enddate": "02/2017"
+    }
+],
+"skills": {
+    "programminglanguages": "Go, Python, Java, Dart, JavaScript, TypeScript, HTMl, CSS, C#",
+    "technologies": "Docker, Jenkins, Openshift, Linux, Node.js, Angular, SQL, PostgreSQL, Git, Spring",
+    "languages": "german (native), english (C1+ certificate, fluent following work experience)"
+}
+}
