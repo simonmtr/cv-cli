@@ -19,7 +19,6 @@ def iterate_variable_input(data, recoutput=''):
         else:
             recoutput += f" -> {k} - {v}\n"
     return recoutput
-    
 
 def get_output_preset(path, flags):
     output = ''
@@ -63,8 +62,16 @@ def get_projects(data):
 
 def get_experience(data):
     experiences = '---\nExperiences\n---'
+    for experience in data:
+        experiences += f"Company: {experience['company']}\n"
+        experiences += f"Location: {experience['location']}\n"
+        experiences += f"Title: {experience['title']}\n"
+        for information in experience['information']:
+            experiences += f"{information}\n"
+        experiences += f"Technologies: {experience['technologies']}\n"
+        experiences += f"Start: {experience['startdate']}\n"
+        experiences += f"End: {experience['enddate']}\n"
     return experiences
-
 
 def get_skills(data):
     skills = '---\nSkills\n---'
